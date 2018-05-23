@@ -20,6 +20,7 @@ func main() {
 		if err != nil {
 			fmt.Println("Something weird happened while I was trying to open your config file :(")
 		}
+        fmt.Println("Watch started")
 		inotify.StartWatcherOnFolder(ncClient)
 	}
 }
