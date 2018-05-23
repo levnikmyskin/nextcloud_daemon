@@ -2,12 +2,7 @@ package main
 
 import (
 	"fmt"
-	"net/http"
-	"os"
-	"io"
-	"strings"
-
-
+    "os"
 	"nextCloudClient/first_start"
 	"nextCloudClient/inotify"
 	"nextCloudClient/nextcloud"
